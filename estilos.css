@@ -1,0 +1,46 @@
+html{
+    height: 100%;
+}
+body{
+    background: linear-gradient(#168aad,#b5e48c);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, .logo{
+    text-align: center;
+}
+
+.contenedor{
+    max-width: 300px;
+    padding: 25px;
+    margin: 0px auto;
+    margin-top: 85px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 4px 5px 4px #72efdd;
+}
+
+.contenedor .elemento label{
+    text-transform: uppercase;
+    
+}
+
+.contenedor .elemento input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 8px 0px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.contenedor .elemento input[type="submit"]{
+    max-width: 100%;
+    background-color:#76c893;
+    border-radius: 15px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
